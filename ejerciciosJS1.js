@@ -150,7 +150,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 2 != 0) {
+  if (num % 2 !== 0) {
     return true;
   }else{
     return false;
@@ -286,7 +286,7 @@ function esVocal(letra){
   //si ingresa una consonante muestre en pantalla dato incorrecto
   //Escribe tu código aquí
 
-  if (letra.length != 1){
+  if (letra.length !== 1){
     return "Dato incorrecto tiene mas de 1 caracter";
   } else {
     switch (letra){
